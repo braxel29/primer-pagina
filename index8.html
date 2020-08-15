@@ -1,0 +1,87 @@
+<form action="../form-result.php" target="_blank">
+
+  <p>Ingresa tu nombre completo: <input type="text" name="nombrecompleto"></p>
+
+  <p>
+
+    Deja un mensaje:<br>
+
+    <textarea name="mensaje"></textarea>
+
+  </p>
+  <p>
+
+    Selecciona tus intereses:<br>
+
+    <input type="checkbox" name="peliculas"> Películas<br>
+
+    <input type="checkbox" name="deportes"> Deportes<br>
+
+    <input type="checkbox" name="videojuegos"> Videojuegos
+
+  </p>
+<br>
+<p>
+
+    Género:
+
+    <select name="genero">
+
+      <option>Masculino</option>
+
+      <option>Femenino</option>
+
+    </select>
+
+  </p>
+<br>
+ <p>
+
+    Selecciona categorías:<br>
+
+    <select multiple name="categorias[]">
+
+      <option value="arte">Arte y entretenimiento</option>
+
+      <option value="tv">Televisión y películas</option>
+
+      <option value="ninos">Niños y adolescentes</option>
+
+      <option value="hazlotu">Hazlo tu mismo</option>
+
+    </select>
+
+  </p>
+<fieldset>
+
+    <legend>Información personal</legend>
+
+    <p><label>Nombre: <input type="text" name="nombre"></label></p>
+    
+     <p><label>Correo: <input type="text" name="Correo"></label></p>
+
+     <p><label>Dirección: <input type="text" name="direccion"></label></p>
+
+  </fieldset>
+
+  <fieldset>
+
+    <legend>Preferencias</legend>
+
+    <p>
+
+      <label><input type="checkbox" name="arte"> Arte</label><br>
+
+      <label><input type="checkbox" name="television"> Televisión</label><br>
+
+      <label><input type="checkbox" name="videojuegos"> Videojuegos</label><br>
+
+      <label><input type="checkbox" name="deportes"> Deportes</label><br>
+
+    </p>
+
+  </fieldset>
+
+  <p><input type="submit" value="Enviar información"></p>
+
+</form>
